@@ -20,8 +20,7 @@ import { ContentComponent } from './content/content.component';
     MatGridListModule,
     MatButtonModule,
     RouterModule.forRoot([
-      {path:'',component:AppComponent},
-      {path:'mainpage', component:MainPageComponent},
+      {path:'',component:ContentComponent},
       {path:'introduction',component:IntroductionComponent},
       // {path:'register', component:RegisterFormComponent},
     ]) ],
