@@ -1,0 +1,15 @@
+.content{
+  max-width: 1200px;
+  margin-left: 20px;
+  direction: rtl;
+  text-align: right;
+}
+.image{
+  height: 200px;
+  width:800px;
+  margin-right: 180px;
+  margin-top: -450px;
+}
+.content-right{
+  margin-top: 400px;
+}

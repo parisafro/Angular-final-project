@@ -9,7 +9,7 @@
   margin-left: 20px;
   margin-right: 20px;
   min-width: 200px;
-  height: 575px;
+  height: 480px;
   direction:rtl;
   float:right;
 }
@@ -18,11 +18,27 @@
   padding-top: 20px;
 
 }
-.content{
-  max-width: 1200px;
-  margin-left: 20px;
+.example-font{
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer{
+  text-align: center;
+  font-size: 5px;
+  padding: 20px;
+}
+.example-card {
+  max-width: 380px;
+  margin-left:20px;
+  height: 480px;
+
+}
+.card-title{
+  text-align: center;
   direction: rtl;
-  text-align: right;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-bottom: 30px;
 }
 .image{
   height: 200px;
@@ -30,8 +46,39 @@
   margin-right: 180px;
   margin-top: -450px;
 }
-.example-font{
-  font-size: 20px;
-  font-weight: bold;
+.content-left{
+  max-width: 1200px;
+  margin-left: 20px;
+  direction: rtl;
+  text-align: right;
+  padding-top: 60px;
 }
+.content-center{
+  max-width: 1200px;
+  margin-left: 20px;
+  direction: rtl;
+  text-align: right;
+  padding-top: 35px;
+}
+.content-right{
+  max-width: 1200px;
+  margin-left: 20px;
+  direction: rtl;
+  text-align: right;
+  padding-top: 15px;
+}
+.card-center{
+  max-width: 380px;
+  height: 480px;
+  margin-left: 420px;
+  margin-top: -480px;
+}
+.card-right{
+  max-width: 380px;
+  margin-left: 820px;
+  height: 480px;
+  margin-top: -480px;
+  margin-right: 20px;
+}
+
 
