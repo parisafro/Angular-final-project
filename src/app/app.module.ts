@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { ContentComponent } from './content/content.component';
 import { RegisterComponent } from './register/register.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   imports:[
     BrowserModule, 
@@ -24,10 +25,11 @@ import { RegisterComponent } from './register/register.component';
       {path:'',component:ContentComponent},
       {path:'introduction',component:IntroductionComponent},
       {path:'register',component:RegisterComponent},
+      {path:'contact',component:ContactComponent},
     ]) ],
   declarations: [ 
     AppComponent, 
-    MainPageComponent, IntroductionComponent, ContentComponent, RegisterComponent ],
+    MainPageComponent, IntroductionComponent, ContentComponent, RegisterComponent, ContactComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
