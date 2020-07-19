@@ -10,6 +10,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
 import { IntroductionComponent } from './introduction/introduction.component';
+import { ContentComponent } from './content/content.component';
 @NgModule({
   imports:[
     BrowserModule, 
@@ -19,11 +20,14 @@ import { IntroductionComponent } from './introduction/introduction.component';
     MatGridListModule,
     MatButtonModule,
     RouterModule.forRoot([
-      {path:'',component:MainPageComponent},
+      {path:'',component:AppComponent},
+      {path:'mainpage', component:MainPageComponent},
+      {path:'introduction',component:IntroductionComponent},
+      // {path:'register', component:RegisterFormComponent},
     ]) ],
   declarations: [ 
     AppComponent, 
-    MainPageComponent, IntroductionComponent ],
+    MainPageComponent, IntroductionComponent, ContentComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
