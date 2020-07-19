@@ -16,8 +16,16 @@ export class RegisterComponent {
     var email= form.email;
     console.log(email);
 
+    var username = form.username;
+    console.log(username);
+
     var pass= form.pass;
     console.log(pass);
+
+    var repass= form.repass;
+    console.log(repass);
+
+    
   }
 
 }
