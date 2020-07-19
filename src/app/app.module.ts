@@ -11,6 +11,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { ContentComponent } from './content/content.component';
+import { RegisterComponent } from './register/register.component';
 @NgModule({
   imports:[
     BrowserModule, 
@@ -22,11 +23,11 @@ import { ContentComponent } from './content/content.component';
     RouterModule.forRoot([
       {path:'',component:ContentComponent},
       {path:'introduction',component:IntroductionComponent},
-      // {path:'register', component:RegisterFormComponent},
+      {path:'register',component:RegisterComponent},
     ]) ],
   declarations: [ 
     AppComponent, 
-    MainPageComponent, IntroductionComponent, ContentComponent ],
+    MainPageComponent, IntroductionComponent, ContentComponent, RegisterComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

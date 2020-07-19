@@ -1,0 +1,28 @@
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+.content{
+  max-width: 1200px;
+  margin-left: 20px;
+  direction: rtl;
+  text-align: right;
+}
+.image{
+  height: 200px;
+  width:800px;
+  margin-right: 180px;
+  margin-top: -450px;
+}
+.content-right{
+  margin-top: 400px;
+}
+.footer{
+  text-align: center;
+  font-size: 5px;
+  padding: 20px;
+}
