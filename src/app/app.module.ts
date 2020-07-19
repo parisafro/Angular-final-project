@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 // material components
 import { MainPageComponent } from './main-page/main-page.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 @NgModule({
   imports:[
     BrowserModule, 
     FormsModule,
     BrowserAnimationsModule,
-    MatCardModule ],
+    MatCardModule,
+    MatGridListModule ],
   declarations: [ 
     AppComponent, 
     MainPageComponent ],
