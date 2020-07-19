@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 // material components
 import { MainPageComponent } from './main-page/main-page.component';
 import {MatCardModule} from '@angular/material/card';
-import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { ContentComponent } from './content/content.component';
@@ -19,7 +18,6 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatGridListModule,
     MatButtonModule,
     RouterModule.forRoot([
       {path:'',component:ContentComponent},
