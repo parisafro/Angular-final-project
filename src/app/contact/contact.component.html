@@ -1,6 +1,8 @@
-<div class="content">
-  <mat-card style="background-color: '#98c1d9'">
-    <mat-card-header style="min-height: 450px;">
+  <div class="content">
+    <mat-card style="background-color: '#98c1d9'" class="card-center">
+      <mat-card-header class="card-title" >
+        تماس با ما
+      </mat-card-header>
   <form #contactForm="ngForm" (ngSubmit)="submit(contactForm.value)">
   <div class="form-group">
       <label for="firstName">نام</label>
@@ -36,15 +38,16 @@
       </div>
   </div>
     
-  <button class="btn btn-primary" type="submit" [class.disabled]="!contactForm.valid">Submit</button>
+  <button class="btn btn-primary" type="submit" [class.disabled]="!contactForm.valid">ثبت نظر</button>
   
 </form>
-      </mat-card-header>
     </mat-card>
   </div>
+  
       <div class="footer">
     <mat-card style="  background-color: '#fca311';">
       <mat-card-title style="font-size: 15px;">تمامی حقوق این سایت محفوظ است
       </mat-card-title>
     </mat-card>
   </div>
+  

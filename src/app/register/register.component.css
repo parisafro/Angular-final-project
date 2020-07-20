@@ -11,6 +11,7 @@
   margin-left: 20px;
   direction: rtl;
   text-align: right;
+  line-height: 1.8;
 }
 .image{
   height: 200px;
@@ -25,4 +26,15 @@
   text-align: center;
   font-size: 5px;
   padding: 20px;
+}
+.card-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  padding-right: 50px;
+  margin-bottom: 30px;
+  margin-right: 450px;
+}
+.font{
+  font-size: 15px;
 }

@@ -21,3 +21,11 @@
   font-size: 5px;
   padding: 20px;
 }
+.card-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  padding-right: 50px;
+  margin-bottom: 30px;
+  margin-right: 450px;
+}
