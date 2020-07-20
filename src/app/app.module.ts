@@ -12,6 +12,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { ContentComponent } from './content/content.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 @NgModule({
   imports:[
     BrowserModule, 
@@ -24,10 +25,11 @@ import { ContactComponent } from './contact/contact.component';
       {path:'introduction',component:IntroductionComponent},
       {path:'register',component:RegisterComponent},
       {path:'contact',component:ContactComponent},
+      {path:'about',component:AboutComponent},
     ]) ],
   declarations: [ 
     AppComponent, 
-    MainPageComponent, IntroductionComponent, ContentComponent, RegisterComponent, ContactComponent ],
+    MainPageComponent, IntroductionComponent, ContentComponent, RegisterComponent, ContactComponent, AboutComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

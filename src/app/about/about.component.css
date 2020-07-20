@@ -1,0 +1,25 @@
+.content{
+  max-width: 1200px;
+  margin-left: 20px;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+}
+.image{
+  height: 200px;
+  width:800px;
+  margin-right: 180px;
+  margin-top: -450px;
+}
+.content-right{
+  margin-top: 400px;
+}
+.footer{
+  text-align: center;
+  font-size: 5px;
+  padding: 20px;
+}
+.font{
+  font-size: 35px;
+  text-align: center;
+}
